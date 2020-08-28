@@ -19,6 +19,8 @@ class DatabaseSeeder extends Seeder
         //     'email_verified_at' => now(),
         //     'password' => Hash::make('password'), // password
         // ]);
+        // factory(\App\Rank::class, 1)->create();
+
         $this->call(TagSeeder::class);
     }
 }
